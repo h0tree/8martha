@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #C0BD88;
+    background-image: url("img/background.png");
+    margin: 0;
+    padding: 0
+}
+
+.content {
+    width: 90%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 60px;
+    margin-bottom: 0;
+    font-family: 'PP Neue Machina';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 53px;
+    color: #8E8C67;
+    text-align: center;
+}
+
+.img {
+    display: inline;
+}
+
+.text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #8E8C67;
+    margin: 0 7px 0 7px;
+    text-align: center;
+}
